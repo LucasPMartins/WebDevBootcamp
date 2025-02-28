@@ -1,0 +1,120 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.col p {
+  text-align: left;
+}
+
+.col .feature {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.col svg {
+  padding-right: 10px;
+  float: left;
+  width: 30px;
+  height: 30px;
+  display: inline;
+}
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-family: "JetBrains Mono", serif;
+}
+h2,
+p {
+  font-family: "Josefin Sans", serif;
+}
+
+p {
+  width: 50%;
+  text-align: center;
+}
+
+.profile-picture {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+#resume {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  background-color: rgb(27, 26, 26);
+}
+
+#hero {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+
+.title > h1 {
+  font-size: 28px;
+}
+
+.title svg {
+  height: 30px;
+  width: 30px;
+  float: left;
+  margin-left: 50px;
+  padding-right: 15px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.card {
+  border: 30px solid rgb(27, 26, 26);
+  border-radius: 25%;
+  width: 400px;
+  height: 400px;
+}
+
+.card img {
+  border-radius: 20%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+#projects .container {
+  flex-direction: column;
+  align-items: center;
+}
